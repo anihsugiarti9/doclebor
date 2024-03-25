@@ -7,6 +7,7 @@ RUN apt-get upgrade -y
 RUN apt-get install -y nvtop
 RUN update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
 RUN apt-get install screen -y
+RUN apt-get install psmisc
 RUN apt install build-essential -y
 RUN apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
 RUN pip3 install pandas scipy matplotlib && \
